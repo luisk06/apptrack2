@@ -59,6 +59,11 @@
 	<!-- Retina iPads: Requires PhoneGap 2.5.0 or higher -->
 	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png" gap:platform="ios" width="1536" height="2008" /><!-- Portrait -->
 	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png" gap:platform="ios" width="2048" height="1496" /><!-- Landscape -->
+	
+	
+	<!-- Plugins -->
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
 		
 	
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
